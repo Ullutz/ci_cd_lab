@@ -24,7 +24,7 @@ spec:
     spec:
       containers:
         - name: webserver
-          image: ghcr.io/ullutz/go-simple-webserver@sha256:e213b6e64d889c270e106aae52bf97eccd96dbd0fde21ce044cc70196dc96b85
+          image: ghcr.io/ullutz/go-simple-webserver:latest
           ports:
             - containerPort: 8080
           imagePullPolicy: Always
